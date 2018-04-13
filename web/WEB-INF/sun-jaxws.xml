@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:endpoints xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+          xmlns:xsi="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+         version="4.0">
+    <xsi:endpoint name="CalculatorWS" implementation="resource.soap.Calculator" url-pattern="testSOAP"/>
+
+</xsi:endpoints>
